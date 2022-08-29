@@ -6,7 +6,7 @@ from requests import get
 ip = get('https://api.ipify.org').text
 
 print('connecting to ssh of the vpn')
-os.system('ssh -l root -p (port) (your vps ip')
+os.system('telnet (port) (your vps ip')
 print('now connecting to vpn')
 os.system('sudo wg-quick up wg0-client')
 print('vpn is now connected!')
