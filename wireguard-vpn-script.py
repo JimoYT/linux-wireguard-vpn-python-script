@@ -1,3 +1,4 @@
+#!/urs/bin/env python
 import os
 import time
 import sys
